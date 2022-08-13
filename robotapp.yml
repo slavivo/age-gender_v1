@@ -1,0 +1,14 @@
+version: 1.0.1
+image: luxonis/age-gender
+name: Age Gender Recognition
+description: Application for age and gender recognition 
+url: https://github.com/slavivo/age-gedner_v1
+language: python
+configuration:
+  detect_threshold:
+    label: 'Detect threshold'
+    type: 'num-range'
+    step: 0.05
+    min: 0
+    max: 1
+    default: 0.5
